@@ -1,5 +1,5 @@
 import Doctors from "../pages/Doctors/Doctors";
-import DoctorsDetails from "../pages/Doctors/DoctorsDetails";
+import DoctorDetails from "../pages/Doctors/DoctorDetails";
 
 import Contact from "../pages/Contact";
 import Home from "../pages/Home";
@@ -20,7 +20,7 @@ const Routers = () => {
       <Route path="/contact" element={<Contact />} />
 
       <Route path="/doctors" element={<Doctors />} />
-      <Route path="/doctors/:id" element={<DoctorsDetails />} />
+      <Route path="/doctors/:id" element={<DoctorDetails />} />
     </Routes>
   );
 };
